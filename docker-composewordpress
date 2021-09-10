@@ -5,7 +5,7 @@ services:
    db:
      image: mysql:5.7
      volumes: 
-       - /home/Download/Composedoker/mysql_dump:/var/lib/mysql
+       - /home/Download/Composedocker/mysql_dump:/var/lib/mysql
      networks:
        - Compiler-hub
      restart: always
